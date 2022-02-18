@@ -24,10 +24,10 @@ public class Chamado implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	@JsonFormat(pattern = "dd/mm/yyyy")
+	@JsonFormat(pattern = "dd/MM/yyyy")
 	private LocalDate dataAbertura = LocalDate.now();
 	
-	@JsonFormat(pattern = "dd/mm/yyyy")
+	@JsonFormat(pattern = "dd/MM/yyyy")
 	private LocalDate dataFechamento;
 	
 	private Prioridade prioridade;

@@ -1,7 +1,7 @@
 package com.itaitan.helpdesk.domain.enums;
 
 public enum Prioridade {
-	BAIXA(0, "BAIXA"), MEDIA(1, "MEDIA"), ENCERRADO(2, "ENCERRADO");
+	BAIXA(0, "BAIXA"), MEDIA(1, "MEDIA"), ALTA(2, "ALTA");
 	
 	private Integer codigo;
 	
