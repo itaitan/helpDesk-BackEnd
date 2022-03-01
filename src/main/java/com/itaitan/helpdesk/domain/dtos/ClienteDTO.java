@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 
 import javax.validation.constraints.NotNull;
 
-import com.itaitan.helpdesk.domain.Tecnico;
+import com.itaitan.helpdesk.domain.Cliente;
 import com.itaitan.helpdesk.domain.enums.Perfil;
 
-public class TecnicoDTO implements Serializable {
+public class ClienteDTO implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
@@ -33,12 +33,12 @@ public class TecnicoDTO implements Serializable {
 
 	protected LocalDate dataCriacao = LocalDate.now();
 
-	public TecnicoDTO() {
+	public ClienteDTO() {
 		super();
 		addPerfis(Perfil.CLIENTE);
 	}
 
-	public TecnicoDTO(Tecnico obj) {
+	public ClienteDTO(Cliente obj) {
 		super();
 		this.id = obj.getId();
 		this.nome = obj.getNome();
