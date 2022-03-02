@@ -35,4 +35,6 @@ public class ChamadoResource {
 		return ResponseEntity.ok().body(listDTO);
 		
 	}
+	
+	
 }
