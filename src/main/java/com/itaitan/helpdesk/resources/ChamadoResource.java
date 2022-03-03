@@ -18,9 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.itaitan.helpdesk.domain.Chamado;
-import com.itaitan.helpdesk.domain.Tecnico;
 import com.itaitan.helpdesk.domain.dtos.ChamadoDTO;
-import com.itaitan.helpdesk.domain.dtos.TecnicoDTO;
 import com.itaitan.helpdesk.services.ChamadoService;
 
 @RestController
