@@ -21,6 +21,7 @@ public class Tecnico extends Pessoa{
 
 	public Tecnico() {
 		super();
+		
 	}
 	
 	public Tecnico(TecnicoDTO obj) {
