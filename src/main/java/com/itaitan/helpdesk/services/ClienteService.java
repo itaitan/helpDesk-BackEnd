@@ -55,6 +55,7 @@ public class ClienteService {
 		if(!objDTO.getSenha().equals(oldObj.getSenha())) {
 			objDTO.setSenha(encoder.encode(objDTO.getSenha()));
 		}
+		
 		validaPorCPFEEmail(objDTO);
 		oldObj = new Cliente(objDTO);
 		
